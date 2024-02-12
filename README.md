@@ -1,57 +1,24 @@
+Developing a Gantt chart for the project schedule is an excellent way to visualize task dependencies and manage project timelines effectively. Here's an example of a Gantt chart for your smart monitoring application project:
 
-                                                    Task management application
+Task Name        | Start Date | End Date   | Duration | Dependencies
+---------------------------------------------------------------------
+1. Project Kickoff | 02/15/2024 | 02/15/2024 | 1 day    | -
+2. Requirement Gathering | 02/16/2024 | 02/20/2024 | 5 days | 1
+3. Functional Requirements Review | 02/21/2024 | 02/22/2024 | 2 days | 2
+4. Non-Functional Requirements Review | 02/21/2024 | 02/22/2024 | 2 days | 2
+5. System Design | 02/23/2024 | 02/28/2024 | 6 days | 3, 4
+6. UI/UX Design | 02/23/2024 | 02/28/2024 | 6 days | 3, 4
+7. Database Design | 02/23/2024 | 02/28/2024 | 6 days | 3, 4
+8. Development | 03/01/2024 | 03/15/2024 | 15 days | 5, 6, 7
+9. Testing | 03/16/2024 | 03/25/2024 | 10 days | 8
+10. Bug Fixing | 03/26/2024 | 03/31/2024 | 6 days | 9
+11. Documentation | 04/01/2024 | 04/05/2024 | 5 days | 5, 6, 7, 8, 9, 10
+12. User Guide Development | 04/06/2024 | 04/10/2024 | 5 days | 11
+13. User Acceptance Testing | 04/11/2024 | 04/15/2024 | 5 days | 12
+14. Finalize and Launch | 04/16/2024 | 04/16/2024 | 1 day | 13
 
-‎
-TaskMate is a personal task management app that improves users' productivity by organizing daily tasks and ensuring their successful completion.
-  Users can rely on this application to improve their time management and increase their effectiveness in completing daily tasks.
-  
-Requirements:
-- The application can be run on iOS and Android operating systems.
-- A mobile device is required to use this application.
-- Android Studio and Java programming language must be used in developing the application.
-- The program requires the use of the espresso-core and recyclerview libraries.
-- 
-Jobs:
-- The ability to create and organize to-do lists and individual tasks.
-- Ability to identify and schedule tasks to ensure they are completed on time.
-- The ability to delete or modify previous tasks at any time.
-‎
-Installation and use instructions:
-1. Download the application and install it on your device.
-2. Log in to the application.
-3. Add your tasks and organize them according to your preferences.
-4. Usage details:
-- The home screen will display to-do lists.
-- To add a new task, click on “Add Task” and enter the necessary details.
-- To select tasks, choose “Select”.
-- To delete a task, select the task and press the Delete button.
-- To edit the task, select the task and press the edit button.
+Regarding the project specifications, it's important to review and revise both functional and non-functional requirements as needed throughout the project. This ensures that the application meets the desired goals and performance criteria. Be sure to involve stakeholders, such as the development team, project managers, and end-users, to gather feedback and make appropriate revisions.
 
-User's Manual:
-1. Home screen:
-When you launch the application, a home screen will appear displaying the different task lists available. You can click on any of these lists to view the individual tasks in each list.
-2. Add a new task:
-- To add a new task, click on the “Add Task” button available at the bottom of the screen. A new window will appear asking you to enter the assignment details such as the title, specific date (if applicable), and any other relevant details.
-3. Defining tasks:
-- To select a specific task, select the task by clicking on it. A checkmark will appear on the selected task to indicate that it is now selected. You can select multiple tasks in the same way.
-4. Delete tasks:
-- To delete a task, select the task you wish to delete and then press the Delete button. The deletion will be confirmed before the operation is performed.
-5. Modifying tasks:
-- To modify a task, select the task you wish to modify and then press the Edit button. The Edit Task window will appear allowing you to modify the details of the task.
+As for the user guide, it should provide comprehensive instructions on how to use the smart monitoring application. It should cover topics such as installation, setup, configuration, and usage of the various features and functionalities. The user guide should be written in a clear and concise manner, using language that is easily understandable by the target audience.
 
-TaskMate can help users achieve personal organization and increase productivity, and allows them to identify and edit important tasks
-And follow up on progress and achievements, which enhances the effectiveness of time management and achieving goals efficiently.
-
-Contributors
- 
-1.	فاطمه علي البريدي 
-2.	هاجر عبدالله عسيري 
-3.	سهام علي عسيري
-4.	نادية احمد
-   
-to contact us
-
-1.	444815826@kku.edu.sa
-2.	444816430@kku.edu.sa
-3.	444816736@kku.edu.sa
-4.	444816749@kku.edu.sa
+Remember to update the project schedule and other project documentation as the project progresses and new information becomes available. Regularly monitor and adjust the Gantt chart to reflect the actual progress of tasks and ensure that the project stays on track.
